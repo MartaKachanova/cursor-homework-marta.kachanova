@@ -63,10 +63,14 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 25px;
+    margin-top: 24px;
 }
 .block-three img{
-    margin: 10px;
+    width: 36px;
+    height: 36px;
+    left: 16px;
+    top: 18px;
+    padding: 8px;
 }
 .block-three p{
     color:  #0D0C22;
@@ -74,8 +78,8 @@ body{
     font-size: 14px;
     line-height: 20px;
     margin: 10px;
-    padding-top: 16p;
-    white-space: nowrap;
+    padding-top: 16px;
+
 }
 .block-three a{
     color: #EA4C89;
@@ -84,9 +88,28 @@ body{
 }
 .button-decline{
     background-color: rgba(13, 12, 34, 0.05);
+    color: #0D0C22;
     border-radius: 8px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+    font-family: 'Inter', sans-serif;
+    width: 63px;
+    height: 28px;
+    border-radius: 8px;
+    border-style: none;
+    margin: 22px 10px 22px 0;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+}
+.button-allow{
+    width: 52px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background: #EA4C89;
+    border-radius: 8px;
+    border-style: none;
+    margin: 22px 16px 22px 0;
     padding: 4px 10px;
 }
