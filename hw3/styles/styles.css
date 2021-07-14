@@ -1,0 +1,26 @@
+body{
+    background:#E5E5E5 ;
+    justify-content: center;
+    height: 1430px;
+}
+.block-one{
+    background: #0B2239;
+    display: flex;
+    width: 1440px;
+    height: 72px;
+}
+.block-one p{
+    color:#FFFFFF;
+    font-family:inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    width: 922px;
+    height: 40px;
+    margin: 16px 42px 16px 120px;
+}
+.block-one a{
+    color: #4AD295;
+    font-family: inter;
+}
