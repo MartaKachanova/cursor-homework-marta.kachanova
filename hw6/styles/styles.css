@@ -1,0 +1,62 @@
+.block{
+    width: 1440px;
+    height: 500px;
+    background: #ED4C5C;
+    position: absolute;
+}
+.title-block h2{
+    left: 165px;
+    font-family: 'Lato', sans-serif;
+    width: 445px;
+    height: 107px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    margin: 122px 81px 24px 165px;
+}
+.title-block p{
+    font-family: 'Lato', sans-serif;
+    width: 445px;
+    height: 64px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+    color: #FFFFFF;
+    margin-left: 165px;
+    margin-bottom: 44px;
+    left: 165px;
+}
+.img-app{
+    position: absolute;
+    width: 134px;
+    height: 32px;
+    left: 163px;
+    top: 357px;
+}
+.img-playstore{
+    width: 32px;
+    height: 32px;
+
+}
+.img-appstore{
+    width: 32px;
+    height: 32px;
+    left: 6.25%;
+    right: 6.25%;
+}
+.img-windows{
+    width: 24px;
+    height: 24px;
+    left: 110px;
+}
+.main-img{
+    width: 533px;
+    height: 311px;
+    left: 691px;
+    top: 94px;
+    position: absolute;
+}
