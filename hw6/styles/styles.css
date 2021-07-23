@@ -1,8 +1,11 @@
 .block{
-    width: 1440px;
-    height: 500px;
+    width: 100%;
+    max-width: 1440px;
     background: #ED4C5C;
-    position: absolute;
+}
+.title-block{
+    display: inline-block;
+    width: 50%;
 }
 .title-block h2{
     left: 165px;
@@ -20,21 +23,15 @@
     font-family: 'Lato', sans-serif;
     width: 445px;
     height: 64px;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 140%;
     text-align: justify;
     color: #FFFFFF;
     margin-left: 165px;
     margin-bottom: 44px;
-    left: 165px;
 }
 .img-app{
-    position: absolute;
-    height: 32px;
-    left: 163px;
-    top: 357px;
+padding-left: 163px;
 }
 .img-playstore{
     width: 32px;
@@ -52,35 +49,16 @@
     left: 110px;
 }
 .main-img{
-    width: 533px;
-    height: 311px;
-    left: 691px;
-    top: 94px;
-    position: absolute;
-}
-.block-contact{
-    height: 100%;
-    display: flex;
+    display: inline-block;
+    width: 30%;
 }
 .main{
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    position: absolute;
-    width: 1440px;
-    height: 500px;
-    left: 0px;
-    top: 500px;
-    background: #FFFFFF;
-    padding-top: 117px;
+   width: 100%;
+   max-width: 1440px;
 }
 .main-text{
     display: inline-block;
-    width: 445px;
-    height: 160px;
-    top: 617px;
-    margin-left: 176px;
-    margin-right: 114px;
+    width: 50%;
 }
 .main-text h3{
     width: 445px;
@@ -102,9 +80,8 @@
 }
 .inputs{
     display: inline-block;
-    width: 540px;
-    height: 305px;
-    padding-left: 125px;
+   width: 40%;
+   max-width: 1440px;
 }
 .name{
     width: 255px;
@@ -173,11 +150,8 @@
 
 }
 .footer{
-    
     display: flex;
     justify-content: flex-start;
-    width: 1440px;
-    height: 360px;
     padding-top: 1130px;
     padding-right: 196px;
     background: #FAFAFA;
