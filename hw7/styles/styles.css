@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4B5D68;
+}
+button,
+input,
+textarea{
+    font-family: inherit;
+}
+.title{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    color: #212353;
+}
+
+/*Header styles*/
+.header-wrap{
+    max-width: 1600px;
+    padding: 0 240px;
+    margin: 0 auto;
+}
+.basic-container{
+    padding-top: 50px;
+}
+
+.left-block{
+    display: flex;
+}
+.top-logo-menu{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 130px;
+}
+
+.left-block{
+    display: flex;
+
+}
+.header-logo{
+    margin-right: 121px;
+    width: 49px;
+    height: 35px;
+}
+.list-menu{
+    list-style: none;
+    display: flex;
+    
+}
+.menu-item{
+    margin-right: 40px;
+}
+.menu-item a{
+    text-decoration: none;
+    color: #4B5D68;
+}
+
+.menu-item a:hover{
+    font-weight: 800;
+    color: #212353;
+}
+.header-btn{
+    padding: 17px 29px;
+    font-weight: 900;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: #212353;
+    background-color: #FFFFFF;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    border-radius: 50px;
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+}
+.header-btn::after{
+    content: url(../img/button\ arow.svg);
+    padding-left: 20px;
+    width: 20px;
+    height: 14px;
+}
+.header-btn:hover{
+    border: 1px solid rgba(179, 26, 115, 0.5);
+    background-color: #f1afe3
+}
+
+/*Main styles*/
+.headline-wrap{
+    padding: 0 112px 0 240px;
+}
+.headline-incide{
+    width: 100%;
+    background: url(../img/main\ photo.png) no-repeat;
+    background-size: 70% auto;
+    background-position: right bottom;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+.headline-incide h1{
+    display: flex;
+    align-items: center;
+    color: #212353;;
+    max-width: 645px;
+    font-size: 80px;
+    line-height: 110%;
+    margin-bottom: 50px;
+}
+.headline-incide p{
+    max-width: 380px;
+    margin-bottom: 50px;
+}
+.headline-btn{
+    line-height: 160%;
+    font-size: 18px;
+    width: 170px;
+    height: 60px;
+    font-weight: 800;
+    color: #FFFFFF;
+    background-color: #9C69E2;
+    border-radius: 50px;
+    border: 1px solid #9C69E2;
+    padding: 16px 36px;
+    cursor: pointer;
+}
+.headline-btn:hover{
+    background-color: rgb(161, 212, 57);
+    border: rgb(98, 145, 4);
+}
