@@ -336,7 +336,14 @@ textarea{
 .slider-btn-active{
     margin-right: 20px;
 }
-
+.pre-footer::before{
+    content: "";
+    position: absolute;
+    height: 2px;
+    background: #9C69E2;
+    opacity: 0.2;
+    width: 100%;
+}
 .footer-wrap{
     padding: 0 243px 0 240px;
     border-top: 2px solid rgba(156, 105, 226, 0.2);
@@ -355,7 +362,9 @@ textarea{
 }
 
 .test-content{
-    display: flex;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 .test-content h2{
     margin-bottom: 20px;
@@ -399,16 +408,19 @@ textarea{
 }
 .footer-logo{
     margin-right: 20px;
+    width: 49px;
+    height: 35px;
 }
-.footer-logo h4{
+.footer-title{
     color: #212353; 
     font-weight: 900;
     font-size: 20px;
     line-height: 160%;
 }
-.adress{
+.adress p{
+    font-family: 'Roboto', sans-serif;;
+    letter-spacing: 0.01em;
     font-size: 16px;
-    font-style: normal;
     line-height: 180%;
     letter-spacing: 0.01em;
     color: #212353;
@@ -424,4 +436,62 @@ textarea{
     text-decoration: none;
     color: #212353;
 }
+.about,
+.help{
+    max-width: 166px;
+    margin-right: 50px;
+}
+.about h5,
+.help h5{
+    font-size: 16px;
+    color: #212353;
+    margin-bottom: 30px;
+}
+.about ul,
+.help ul{
+    list-style: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 250%;
+    color: #212353;
+}
+.about li,
+.help li{
+    list-style: none;
+    font-size: 16px;
+    line-height: 250%;
+    color: #212353;
+}
+.about li:hover,
+.help li:hover{
+    color: #35aa26;
+    text-decoration: underline;
+}
+.social h5{
+    font-size: 16px;
+    color: #212353;
+    margin-bottom: 30px;
+}
+.social ul{
+    display: flex;
+    list-style: none;
+    width: 178px;
+    height: 50px; 
+}
+.footer-copyright{
+    display: flex;
+    justify-content: space-between;
+}
+.copyright p{
+    font-size: 12px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+    color: #212353;
+}
+.connection{
+    width: 60px;
+    height: 60px;
+}
+
+
    
