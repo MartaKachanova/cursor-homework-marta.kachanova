@@ -169,7 +169,6 @@ textarea{
     text-align:start;
 }
 .features-wrap{
-
     width: 100%;
     padding: 0 243px 0 220px;
 }
@@ -199,7 +198,7 @@ textarea{
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 70px;
-    min-width: 1117px;
+    min-width: 1137px;
 }
 .card{
     max-width: 520px;
