@@ -85,3 +85,21 @@ tbody tr{
 .arrow{
     margin-left: 10px;
 }
+.search{
+    padding: 10px 0 10px 37px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(68, 68, 68);
+    outline: none;
+    color: white;
+    background-image: url(../img/VisualEditor_-_Icon_-_Search.svg);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 10px;
+    margin-right: 10px;
+}
+.folder{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
