@@ -8,11 +8,6 @@ body{
     height: 100%;
     background-color: rgb(37, 36, 36);
 }
-.td,
-th{
-    border-bottom: 1px solid grey;
-    width: 50%;
-}
 .wrap{
     width: 1302px;
     height: 893px;
@@ -20,7 +15,8 @@ th{
     margin: 50px 20px 50px 20px;
 }
 .table{
-    margin-bottom: 20px;
+    border-collapse: collapse;
+    margin-bottom: 30px;
     border: 1px solid grey;
     max-height: 893px;
     border-spacing: 0;
@@ -30,6 +26,23 @@ th{
     width: 100%;
     margin-left: 5%; 
 }
+
+tbody tr{
+    border-bottom: 1px solid grey;
+ }
+ 
+ tbody tr:last-child{
+    border: none;
+ }
+ 
+ table tr:last-child td:first-child {
+     border-bottom-left-radius: 10px;
+ }
+ 
+ table tr:last-child td:last-child {
+     border-bottom-right-radius: 10px;
+ }
+
 .table-head{
   color: #fff;
   font-size: 18px;
@@ -57,3 +70,18 @@ th{
     padding-left: 25px;
 }
 
+.dots-grey{
+    color: grey;
+    margin-right: 30px;
+}
+.dots-white{
+    color:#fff;
+    margin-right: 30px;
+}
+
+.checkbox{
+    margin-right: 10px;
+}
+.arrow{
+    margin-left: 10px;
+}
