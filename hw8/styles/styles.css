@@ -15,7 +15,7 @@ body{
     margin: 50px 20px 50px 20px;
 }
 .table{
-    border-collapse: collapse;
+    border-collapse: separate;
     margin-bottom: 30px;
     border: 1px solid grey;
     max-height: 893px;
@@ -27,6 +27,13 @@ body{
     margin-left: 5%; 
 }
 
+td{
+    width: 50%;
+   border-bottom: 1px solid grey;
+}
+td, th {
+    padding: 15px;
+}
 tbody tr{
     border-bottom: 1px solid grey;
  }
@@ -75,6 +82,7 @@ tbody tr{
     margin-right: 30px;
 }
 .dots-white{
+
     color:#fff;
     margin-right: 30px;
 }
