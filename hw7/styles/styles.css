@@ -136,6 +136,7 @@ textarea{
     padding: 0 243px 0 240px;
 }
 .description-incide{
+    flex-wrap: wrap;
     border-radius: 50px;
     display: flex;
     align-items: center;
@@ -193,6 +194,7 @@ textarea{
     min-height: 58px;
 }
 .cards{
+    flex-wrap: wrap;
     display: flex;
     align-items: stretch;
     flex-wrap: wrap;
@@ -272,6 +274,7 @@ textarea{
     line-height: 130%;
 }
 .reviews-slider{
+    flex-wrap: wrap;
     max-width: 949px;
     min-height: 330px;
     background-color: #FFFFFF;
@@ -377,6 +380,7 @@ textarea{
 
 }
 .btn-more{
+    cursor: pointer;
     background-color: #F063B8;
     border: 1px solid #F063B8;
     margin-right: 30px;
@@ -440,6 +444,12 @@ textarea{
     max-width: 166px;
     margin-right: 50px;
 }
+.footer-content{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .about h5,
 .help h5{
     font-size: 16px;
@@ -488,6 +498,7 @@ textarea{
     color: #212353;
 }
 .connection{
+    cursor: pointer;
     width: 60px;
     height: 60px;
 }
