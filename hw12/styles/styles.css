@@ -1,0 +1,152 @@
+.wrapper{
+    width: 1440px;
+    height: 850px;
+    margin: 0 auto;
+}
+.wrapper-swords{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    background-color: #3b1d1d;
+}
+.swords{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 30%;
+    cursor: pointer;
+}
+.swords:hover>.first-swords{
+    animation: sword-one 1s ease-in-out;
+    animation-fill-mode: forwards;
+}
+.swords:hover>.second-swords{
+    animation: sword-two 1s ease-in-out;
+    animation-fill-mode: forwards;
+}
+.swords:hover>.third-swords{
+    animation: sword-three 1s ease-in-out;
+    animation-fill-mode: forwards;
+}
+.swords>.first-swords{
+    animation: sword-one-reverse 1s ease-in-out;
+}
+.swords>.second-swords{
+    animation: sword-two-reverse 1s ease-in-out;
+}
+
+.swords>.third-swords{
+    animation: sword-two-reverse 1s ease-in-out;
+}
+.first-swords,
+.second-swords,
+.third-swords{
+    display: block;
+    width: 100px;
+    height: 5px;
+    background: rgb(236, 234, 222);
+    position: relative;
+    top: 0;
+}
+.first-swords{
+    opacity: 100%;
+    margin: 0 0 35px 35px;
+}
+.second-swords{
+    margin: 0 0 35px 35px;
+    left: -30px;
+}
+.third-swords{
+    margin: 0 0 0 35px;
+}
+.first-swords::before,
+.second-swords::before,
+.third-swords::before{
+    content: " ";
+    display: block;
+    width: 20px;
+    height: 5px;
+    background: rgb(236, 234, 222);
+    position: relative;
+}
+.second-swords::before,
+.third-swords::before{
+    left: -30px;
+}
+.second-swords::before{
+    left: 110px;
+}
+
+@keyframes .first-swords {
+    0% {
+        top: 0;
+        opacity: 100%;
+    }
+    100% {
+        top: -20px;
+        opacity: 0;
+    }
+}
+
+@keyframes .second-swords {
+    0% {
+        transform: rotate(0);
+        box-shadow: none;
+        top: 0;
+    }
+    100% {
+        transform: rotate(45deg);
+        box-shadow: inset 2px 0 5px rgba(255, 0, 0, 0.342), 0 0 10px red;
+        top: 10px;
+    }
+}
+
+@keyframes .third-swords {
+    0% {
+        transform: rotate(0);
+        box-shadow: none;
+        top: 0;
+    }
+    100% {
+        transform: rotate(-45deg);
+        box-shadow: inset 2px 0 5px rgba(128, 128, 0, 0.425), 0 0 10px green;
+        top: -30px;
+    }
+}
+
+@keyframes .first-swords-reverse {
+    0% {
+        top: -20px;
+        opacity: 0;
+    }
+    100% {
+        top: 0;
+        opacity: 100%;
+    }
+}
+@keyframes .second-swords-reverse {
+    0% {
+        transform: rotate(45deg);
+        box-shadow: inset 2px 0 5px rgba(255, 0, 0, 0.288), 2px 0 10px red;
+        top: 10px;
+    }
+    100% {
+        transform: rotate(0);
+        box-shadow: none;
+        top: 0;
+    }
+}
+@keyframes .third-swords-reverse {
+    0% {
+        transform: rotate(-45deg);
+        box-shadow: inset 2px 0 5px rgba(128, 128, 0, 0.425), 0 0 10px green;
+        top: -30px;
+    }
+    100% {
+        transform: rotate(0);
+        box-shadow: none;
+        top: 0;
+    }
+}

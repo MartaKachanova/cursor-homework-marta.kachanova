@@ -54,8 +54,6 @@ tbody tr{
   color: #fff;
   font-size: 18px;
   padding-left: 25px;
-  padding-top:25px ;
-  padding-bottom: 25px;
   border-bottom: 1px solid grey;
   text-align: left;
   width: 50%;
@@ -105,7 +103,7 @@ tbody tr{
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: 10px;
-    margin-right: 10px;
+    margin: -20px -10px -20px 0px;
 }
 .folder{
     width: 20px;
