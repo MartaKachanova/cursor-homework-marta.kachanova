@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .wrapper{
     width: 1440px;
     height: 850px;
@@ -18,79 +23,67 @@
     top: 30%;
     cursor: pointer;
 }
+.first-swords{
+    opacity: 100%;
+    margin: 0 0 30px 30px;
+}
+.second-swords{
+    left: -30px;
+    margin: 0 0 30px 0;
+}
+.third-swords{
+    margin: 0 0 0 30px;
+}
 .swords:hover>.first-swords{
-    animation: sword-one 1s ease-in-out;
+    animation: first-swords 1s ease-in-out;
     animation-fill-mode: forwards;
 }
 .swords:hover>.second-swords{
-    animation: sword-two 1s ease-in-out;
+    animation: second-swords 1s ease-in-out;
     animation-fill-mode: forwards;
 }
 .swords:hover>.third-swords{
-    animation: sword-three 1s ease-in-out;
+    animation: third-swords 1s ease-in-out;
     animation-fill-mode: forwards;
-}
-.swords>.first-swords{
-    animation: sword-one-reverse 1s ease-in-out;
-}
-.swords>.second-swords{
-    animation: sword-two-reverse 1s ease-in-out;
-}
-
-.swords>.third-swords{
-    animation: sword-two-reverse 1s ease-in-out;
 }
 .first-swords,
 .second-swords,
 .third-swords{
-    display: block;
-    width: 100px;
-    height: 5px;
-    background: rgb(236, 234, 222);
-    position: relative;
-    top: 0;
+    display: flex;
+    align-items: center;
+    width: 80px;
+    height: 4px;
+    background: #ffffff; 
 }
-.first-swords{
-    opacity: 100%;
-    margin: 0 0 35px 35px;
-}
-.second-swords{
-    margin: 0 0 35px 35px;
-    left: -30px;
-}
-.third-swords{
-    margin: 0 0 0 35px;
-}
-.first-swords::before,
-.second-swords::before,
+.first-swords::before ,
+.second-swords::before ,
 .third-swords::before{
     content: " ";
     display: block;
     width: 20px;
-    height: 5px;
-    background: rgb(236, 234, 222);
+    height: 4px;
+    background: #ffffff;
     position: relative;
 }
-.second-swords::before,
+.first-swords::before ,
 .third-swords::before{
     left: -30px;
 }
 .second-swords::before{
-    left: 110px;
+    left: 90px;
+   
 }
-
-@keyframes .first-swords {
+@keyframes .first-swords{
     0% {
         top: 0;
-        opacity: 100%;
+        opacity: 0;
     }
     100% {
-        top: -20px;
+        top: 0;
         opacity: 0;
     }
 }
-
-@keyframes .second-swords {
+@keyframes .second-swords{
     0% {
         transform: rotate(0);
         box-shadow: none;
@@ -98,12 +91,12 @@
     }
     100% {
         transform: rotate(45deg);
-        box-shadow: inset 2px 0 5px rgba(255, 0, 0, 0.342), 0 0 10px red;
-        top: 10px;
+        box-shadow: inset 2px 0 5px rgba(255, 41, 41, 0.342), 0 0 10px #ff0000;
+        top: 0;
+    
     }
 }
-
-@keyframes .third-swords {
+@keyframes .third-swords{
     0% {
         transform: rotate(0);
         box-shadow: none;
@@ -111,42 +104,7 @@
     }
     100% {
         transform: rotate(-45deg);
-        box-shadow: inset 2px 0 5px rgba(128, 128, 0, 0.425), 0 0 10px green;
-        top: -30px;
-    }
-}
-
-@keyframes .first-swords-reverse {
-    0% {
-        top: -20px;
-        opacity: 0;
-    }
-    100% {
-        top: 0;
-        opacity: 100%;
-    }
-}
-@keyframes .second-swords-reverse {
-    0% {
-        transform: rotate(45deg);
-        box-shadow: inset 2px 0 5px rgba(255, 0, 0, 0.288), 2px 0 10px red;
-        top: 10px;
-    }
-    100% {
-        transform: rotate(0);
-        box-shadow: none;
-        top: 0;
-    }
-}
-@keyframes .third-swords-reverse {
-    0% {
-        transform: rotate(-45deg);
-        box-shadow: inset 2px 0 5px rgba(128, 128, 0, 0.425), 0 0 10px green;
-        top: -30px;
-    }
-    100% {
-        transform: rotate(0);
-        box-shadow: none;
-        top: 0;
+        box-shadow: inset 2px 0 5px rgba(102, 250, 4, 0.623), 0 0 10px #008000;
+        top: -35px;
     }
 }
