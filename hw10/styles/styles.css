@@ -55,6 +55,11 @@ body{
     color: #FFFFFF;
     position: relative;
 }
+.btn:hover{
+    color: rgb(231, 31, 31);
+    background-color: rgb(16, 19, 243);
+    
+}
 .btn::before{
     content: '';
     position: absolute;
