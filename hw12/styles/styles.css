@@ -209,15 +209,27 @@
     box-shadow: inset 0 0 2px 2px rgba(252, 252, 252, 0.466)
 }
 .first-shadow{
+    box-shadow: inset 0 0 2px 2px rgba(252, 252, 252, 0.466);
+    width : 60px;
+    height: 15px;
+    border-radius: 50%;
+    background: linear-gradient(rgba(206, 204, 195, 0.527), #95969b2a);
     animation: first-shadow 1s infinite ease-in-out;
     position: relative;
 }
 .last-shadow{
+    box-shadow: inset 0 0 2px 2px rgba(252, 252, 252, 0.466);
+    width : 60px;
+    height: 15px;
+    border-radius: 50%;
+    background: linear-gradient(rgba(206, 204, 195, 0.527), #95969b2a);
     animation: last-shadow 1s infinite ease-in-out;
     position: relative;
 }
 
-@keyframes first-shadow{
+
+
+@keyframes first-shadow {
     0% {
         left: 0;
     }
@@ -230,8 +242,9 @@
     100% {
         left: 0;
     }
-}
-@keyframes last-shadow{
+  }
+  
+  @keyframes last-shadow {
     0% {
         right: 0;
     }
@@ -244,5 +257,5 @@
     100% {
         right: 0;
     }
-
-}
+  }
+  
